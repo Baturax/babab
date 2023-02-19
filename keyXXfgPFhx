@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><aps-3:key xmlns:aps-3="http://parallels.com/schemas/keys/aps/3" core:format="openfusion-3" xmlns:core="http://parallels.com/schemas/keys/core/3">
+   <!--Unique product Key number-->
+   <core:key-number core:type="string">EXT.10147388</core:key-number>
+   <!--Key version-->
+   <core:key-version core:type="string">0000</core:key-version>
+   <!--Key description-->
+   <core:description>
+      <core:keytype>ImunifyAV+</core:keytype>
+   </core:description>
+   <!--Product which this license is intended to work on-->
+   <core:product core:type="string">ext-revisium-antivirus</core:product>
+   <!--Supported product version-->
+   <core:versions>
+      <core:from core:type="string">1.0</core:from>
+      <core:to core:type="string">any</core:to>
+   </core:versions>
+   <!--Date after which this license becomes usable (inclusive)-->
+   <core:start-date core:type="date">instant</core:start-date>
+   <!--Date before which this license is usable (exclusive)-->
+   <core:expiration-date core:type="date">2023-02-01</core:expiration-date>
+   <!--URL of the service endpoint to use when performing an autoupdate-->
+   <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
+   <!--Date when product will try to perform an autoupdate-->
+   <core:update-date core:type="date">2023-01-22</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">36c0195hc85f2fls6a-x22ykaq91qni6</core:update-ticket>
+   <!--Key body-->
+   <aps-3:key-body core:encoding="base64" core:type="binary">cmV2aXNpdW0tYW50aXZpcnVz</aps-3:key-body>
+   <!--Information about additional key-->
+   <aps-3:extension-info core:encoding="base64" core:type="binary">eyJjb2RlIjoicmV2aXNpdW0tYW50aXZpcnVzIiwia2V5TnVtYmVyIjoiMTAxNDczODgiLCJkZXNjcmlwdGlvbiI6IkltdW5pZnlBViIsIm9yaWdpbiI6ImluZGl2aWR1YWwiLCJidW5kbGUiOm51bGwsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJzdG9yZSJ9</aps-3:extension-info>
+   <!--Information about properties-->
+   <aps-3:properties-config core:encoding="base64" core:type="binary">eyJwcm9wZXJ0aWVzTGlzdCI6W3sibmFtZSI6ImxpY2Vuc2VfdXBkYXRlX2RhdGUiLCJ2YWx1ZSI6IjIwMjMwMTIyIiwidHlwZSI6InN0cmluZyJ9LHsibmFtZSI6ImxpbV9kYXRlIiwidmFsdWUiOiIyMDIzMDIwMSIsInR5cGUiOiJzdHJpbmcifSx7Im5hbWUiOiJrZXkiLCJ2YWx1ZSI6ImNtVjJhWE5wZFcwdFlXNTBhWFpwY25WeiIsInR5cGUiOiJzdHJpbmcifV19</aps-3:properties-config>
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+<ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>YGnnU28Wmzi+cikAf6KL9OHrFF7QvS8p/NlcnXxAePY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LJG8KaJIm8S6t1ntY3HmVnazyVqoTIU6bRhH2QZaPTCKEatbzk5Z/SoMKyCoaWsAINEOmrxrRKVO
+dUfPI09tfieguk9FGaqQvYFh1TRPlE3NtAfTpbYS2JFRaolwWc2Asxp9BAl46aYfqZ3xUQe6Fd1T
+KsF43+sZ1DPVPyJmcKg0lqLl8yog+ppTCgiC3V9vwMpM7BS1mMuAT1CH7jjIkjje+A0b9BCoujYi
+DclcCtAo1dMwehuybZnIktTrRDHi2NdENoOS+OCIXcF6mygtKXFPQStHGi6eyHqsNE2Thk1+SAcl
+f53MO6TQCLNG21PqJ8cC9hJzzYrUYHJ4uJnP5g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpzCCAo8CAWAwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTER
+MA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsT
+FEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJ
+KoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTE4MDIxMjA3MTU0M1oXDTQ1MDYzMDA3MTU0M1ow
+gYsxCzAJBgNVBAYTAkJNMQswCQYDVQQIDAJITTERMA8GA1UEBwwISGFtaWx0b24xHDAaBgNVBAoM
+E1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsMFEludGVybmFsIERldmVsb3BtZW50MR8wHQYD
+VQQDDBZleHQtcmV2aXNpdW0tYW50aXZpcnVzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAqnMY5/iqtcxT4Tvzg/TI+ArA/cgucMNyP3NbELoRNiW2x4kyUY3CK3I6cO9oMwigDZhEcnmC
+0/JlGMssLc+4IFPXPbo6y1o25iWhJxCXNOKRyVMVK4lU735EKdKimUndxMSvle7PSDSAEGXwta2p
+eeZ0uzxMkCiYu9X2K9RRKWcVBF4/qu//ABvHPg621MnHarKytqFFc59VECfbhT9/aI3kfjotYn6H
++Q/4vT1Y9XrTfUWmMBdx8zRrBNKwkXEc/Hge4rtFlM5/spsEcHAKgPXLmzidvNNmmlw8HqYLzT/7
+qv+oWYpPXCsV9lbtiDInq7tG06U6DjcfSpOLv2aqlQIDAQABMA0GCSqGSIb3DQEBBQUAA4ICAQBE
+8NX9gr+zNWH3OHQNywV1V4Zh7Z6S9MUidiPyHX4BdMW5wt1zMLQv/rJMwkSZ2Kp7+bdbMUmmUgG+
+tBxkM6/4ol8xN+UBti/zqpHDaS70etMEgJDo37WOR/DQ6sUlUwu+9EN9OAlRmH7MjeOmXlw13Cn0
+DPv8Frp04GtreEhGTMz7cZtEi/eTCf7G+MyqnbUHyPtdHVMe+mlSDd+4CMT5jHf4ftQHAieyPAtq
+7Cva2U5lbqnkFikrfkLDFNUnZRBFIy42q/yeGQvYmSzUcL87Jmds3WRp+cVD+w9IBwru3DeXKoz2
+jZR60VPh4mNl0Mh1YNxhF0I7s6+RCwCkiQCE62BmbNocxf13mvU9FevZVeOa4v+/5P71jd2DlMzt
+oIF/Cy9d3PSSAAq7/na/nXNPePDB5EX3Zvt5duN500dsOCHWOD/VGEU8leyHvh9BwIxcBITBUl/E
+pSA6G0eZlcZZon9bWCndwflQurlOqDUcQ1XYn1BOYZg78bW3CLJoKR+2PHW99nORvaBBV63JO9QC
+FKE8XynnzOE8uNGW+dmUp9b3ic1SpoAtA1or5fK0gU9wI4q5hUmEpjUh68adJ37boxMFLZLu0tpR
+mHBEdl9N9YQSgfsmi0EV89REKbZEAnyg682FIKyjGkkZEaki2zhPnzATWE0rdepvb4tGevsVuA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</aps-3:key>
